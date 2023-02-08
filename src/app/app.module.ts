@@ -7,9 +7,11 @@ import { CartHeaderComponent } from './cart-header/cart-header.component';
 import { CartSummaryComponent } from './cart-summary/cart-summary.component';
 import { ProductListComponent } from './product-list/product-list.component';
 import { PromoCodeComponent } from './promo-code/promo-code.component';
+import { StyleTextDirective } from './directive/style-text.directive';
 
 @NgModule({
   declarations: [
+    StyleTextDirective,
     AppComponent,
     CartHeaderComponent,
     CartSummaryComponent,
